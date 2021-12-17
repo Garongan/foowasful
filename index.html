@@ -133,14 +133,14 @@
   <div class="carousel-inner">
     <!-- carousel item -->
     <div class="carousel-item active">
-      <img src="{{ asset('img/Carousel1.png') }}" class="d-block w-100" alt="...">
+      <img src="img/Carousel1.png" class="d-block w-100" alt="...">
       <!-- carousel caption -->
       <div class="carousel-caption d-none d-md-block top-50 start-50 translate-middle">
         <h3>Kurangi Sampah Sisa Makanan untuk Lingkungan yang Lebih Baik</h3>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="{{ asset('img/Carousel2.png') }}" class="d-block w-100" alt="...">
+      <img src="img/Carousel2.png" class="d-block w-100" alt="...">
       <!-- carousel caption -->
       <div class="carousel-caption d-none d-md-block top-50 start-50 translate-middle">
         <h3>Melempar makanan sama saja dengan mencurinya dari atas meja</h3>
@@ -148,20 +148,693 @@
     </div>
   </div>
 </div>
-
 <!-- isi -->
         <div class="tab-content" id="myTabContent">
           <!-- home -->
           <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-            @include('homepage')
+<!-- isi -->
+                <!-- grid bootstrap -->
+    <!-- centering content -->
+    <div class="container px-5 py-5">
+      <!-- teks -->
+    <h1>Tahukah Kalian</h1>
+      <!-- isi awareness -->
+      <div class="row row-cols-md-3 row-cols-1">
+        <!-- Prob 1 -->
+        <div class="col">
+          <!-- card -->
+          <div class="card text-center bg-transparent border-0">
+            <!-- centering content -->
+            <div class="d-flex justify-content-center">
+              <span class="iconify" data-icon="iwwa:co2" data-height="37%"></span>
+            </div>
+            <!-- judul -->
+            <h4 class="d-flex justify-content-center">1.702,9 <br> Mt CO2 EK</h4>
+            <p>Terdapat emisi timbulan akibat sisa makan selama 2000-2019 diestimasikan sebesar 1.702,9 Mt CO2 EK, dengan rata-rata kontribusi per tahun setara dengan 7,29% emisi GRK Indonesia</p>
+          </div>
+
+        </div>
+        <!-- Prob 2 -->
+        <div class="col">
+          <div class="card text-center bg-transparent border-0">
+              <!-- centering content -->
+              <div class="d-flex justify-content-center">
+                <span class="iconify" data-icon="bi:bar-chart-fill" data-height="30%" data-flip="horizontal"></span>
+              </div>
+              <!-- judul -->
+              <h4 class="d-flex justify-content-center mt-4">213-551 <br> Triliun Rupiah/Tahun</h4>
+              <p>Kerugian dari timbulan sisa makanan Indonesia pada tahun 2000-2019 diestimasikan sebesar 213-551 triliun rupiah/tahun atau setara dengan 4-5% PDB Indonesia</p>
+            </div>
+
+        </div>
+        <!-- prob 3 -->
+        <div class="col">
+          <!-- card -->
+          <div class="card text-center bg-transparent border-0">
+            <!-- centering content -->
+            <div class="d-flex justify-content-center">
+              <span class="iconify" data-icon="emojione-monotone:wastebasket" data-height="30%"></span>
+            </div>
+            <!-- judul -->
+            <h4 class="d-flex justify-content-center mt-4">115-184 <br> KG/Kapita/Tahun</h4>
+            <p>Timbulan Sisa makanan pada 2000 -2019 yaitu 115-184 kg/kapita/tahun. Dari sisi sektor dan jenis pangan, timbulan terbesar terjadi di tanaman pangan, kategori padi-padian. sementara sektor pangan paling tidak efisien yaitu di kategori sayur-sayuran</p>
+          </div>
+
+        </div>
+      </div>
+      <!-- garis pembatas -->
+      <hr>
+      <h1>Mari Donasikan Sisa Makananmu <br> dengan Klik Tombol Dibawah ini</h1>
+      <!-- isi donasikan -->
+      <div class="row row-cols-md-2 row-cols-1">
+        <div class="col p-4 d-flex justify-content-center">
+          <!-- button -->
+          <a href="donasikan.html">
+            <button type="button" class="btn btn-lg" data-bs-toggle="tooltip" data-bs-placement="top" title="Klik disini untuk mendonasikan sisa makananmu!">
+              Form untuk Penerima Sisa Makanan  
+            </button>
+          </a>
+        </div>
+        <div class="col p-4 d-flex justify-content-center">
+          <!-- button -->
+          <a href="terima.html">
+            <button type="button" class="btn px-auto btn-lg" data-bs-toggle="tooltip" data-bs-placement="top" title="Klik disini jika ingin mendapatkan hasil donasi dari sisa makanan untuk dimanfaatkan!">
+              Form untuk Penerima Sisa Makanan  
+            </button>
+          </a>
+        </div>
+      </div>
+
+    </div>
+<!-- isi -->
           </div>
           <!-- about -->
           <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-            @include('about')
+<!-- isi -->
+                <!-- centering content -->
+    <div class="container px-5 py-5">
+        <!-- head article -->
+        <h1>Tentang FOOWASFUL Indonesia</h1>
+        <!-- text wrapping -->
+        <div class="text-warp">
+            <p>FOOWASFUL Indonesia adalah sebuah platform online pertama yang menyediakan kebutuhan untuk memanfaatkan, mengolah, dan edukasi mengenai foodwaste di kota Malang. Platform ini didirikan oleh Mochammad Mirza Kharisma pada tahun 2021. Platform ini didirikan dengan latar belakang permasalahan food waste yang sudah menjadi isu global termasuk Indonesia. Berdasarkan data Kementerian Lingkungan Hidup dan Kehutanan (KLHK) Indonesia, pada tahun 2018 44% timbulan sampah di Indonesia merupakan sampah makanan. Indonesia juga diklaim sebagai negara penghasil makanan sisa terbesar kedua di dunia, diperkirakan mencapai 300 kg per kapita per tahun. <br>
+            <br> FOOWASFUL mengambil peran untuk aktif memberikan edukasi dan membentuk pola pikir masyarakat masyarakat tentang pentingnya mengolah makanan agar memimalisir penambahan food waste. Selain itu, kami juga menjadi platform untuk menyediakan kebutuhan pengolahan food waste, salah satunya adalah jasa penampungan food waste.
+            </p>
+        </div>
+        <!-- head fitur -->
+        <h4>3 Fitur Utama FOOWASFUL</h4>
+
+    <!-- row fitur-->
+    <div class="row row-cols-md-3 row-cols-1">
+    <!-- Prob 1 -->
+        <div class="col">
+          <!-- card -->
+
+            <!-- centering content -->
+            <div class="d-flex justify-content-center">
+            <span class="iconify" data-icon="mdi:school" data-height="30%"></span>
+            </div>
+            <!-- judul -->
+            <h4 class="mt-4">Edukasi</h4>
+
+        </div>
+        <!-- Prob 2 -->
+        <div class="col">
+              <!-- centering content -->
+              <div class="d-flex justify-content-center">
+              <span class="iconify" data-icon="mdi:delete-variant" style="color: black;" data-height="30%"></span>
+              </div>
+              <!-- judul -->
+              <h4 class="mt-4">Donasi Sisa Makanan</h4>
+
+        </div>
+        <!-- prob 3 -->
+        <div class="col">
+          <!-- card -->
+          
+            <!-- centering content -->
+            <div class="d-flex justify-content-center">
+            <span class="iconify" data-icon="mdi:food-apple" style="color: black;" data-height="30%"></span>
+            </div>
+            <!-- judul -->
+            <h4 class="mt-4">Penerima Sisa Makanan</h4>
+
+        </div>
+      </div>
+      <!-- head name team -->
+      <h4>Meet the Great Team</h4>
+      <!-- row team -->
+      
+      <div class="row row-cols-md-5 row-cols-1">
+          <!-- foto dan data diri -->
+          <div class="col">
+            <div class="d-flex justify-content-center">
+                  <img src="{{ asset('img/ico.png') }}" class="rounded-circle" alt="poto">      
+            </div>
+            <h6>Mochammad Mirza Kharisma</h6>
+            <p class="text-center">Founder, Head of Management</p>
+          </div>
+          
+          <div class="col">
+            <div class="d-flex justify-content-center">
+                  <img src="{{ asset('img/ico.png') }}" class="rounded-circle" alt="poto">
+            </div>
+            <h6>Muhammad Reyhan</h6>
+            <p class="text-center">Graphics Designer</p>
+          </div>
+
+          <div class="col">
+            <div class="d-flex justify-content-center">
+                  <img src="{{ asset('img/ico.png') }}" class="rounded-circle" alt="poto">
+            </div>
+            <h6>Alvindo Tri Jatmiko</h6>
+            <p class="text-center">Full-stack Developer</p>
+          </div>
+      
+          <!-- foto dan data diri -->
+        <div class="col">
+            <div class="d-flex justify-content-center">
+                  <img src="{{ asset('img/ico.png') }}" class="rounded-circle" alt="poto">
+              </div>
+              <h6>Yoga Aditya Pratama</h6>
+              <p class="text-center">Head of Content Management</p>
+          </div>
+          
+          <div class="col">
+            <div class="d-flex justify-content-center">
+                  <img src="{{ asset('img/ico.png') }}" class="rounded-circle" alt="poto">
+            </div>
+            <h6>Adellia Putri Puspitasari</h6>
+            <p class="text-center">Food Waste Experts</p>
+          </div>
+
+        </div>
+      </div>
+<!-- isi -->
           </div>
           <!-- act -->
           <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-            @include('act')
+<!-- isi -->
+    <!-- centering content -->
+    <div class="container px-5 py-5">
+        <!-- blog section -->
+<!-- isi -->
+      <!-- berita edukasi -->
+  <!-- Modal berita1 -->
+  <div class="modal fade" id="edukasi_berita1" tabindex="-1" aria-labelledby="edukasi_berita1" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Sudahkah Anda Mengedukasi Anak Mengenai Food Waste di Waktu yang Tepat?</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <!-- update on -->
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <!-- embed -->
+          
+          <div class="ratio">
+            <iframe class="embed-responsive-item" src="https://www.surplus.id/post/sudahkah-anda-mengedukasi-anak-mengenai-food-waste-di-waktu-yang-tepat"></iframe>
+          </div>
+          
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>        
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal berita2 -->
+  <div class="modal fade" id="edukasi_berita2" tabindex="-1" aria-labelledby="edukasi_berita2" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Food Waste dan Langkah Kecil Untuk Menguranginya</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <!-- update on -->
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <!-- embed -->
+          
+          <div class="ratio">
+            <iframe class="embed-responsive-item" src="https://lpmopini.online/food-waste-dan-langkah-kecil-untuk-menguranginya"></iframe>
+          </div>
+          
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>        
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal berita3 -->
+  <div class="modal fade" id="edukasi_berita3" tabindex="-1" aria-labelledby="edukasi_berita3" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">LANGKAH SEDERHANA UNTUK KURANGI SAMPAH MAKANAN (FOOD WASTE)</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <!-- update on -->
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <!-- embed -->
+          
+          <div class="ratio">
+            <iframe class="embed-responsive-item" src="https://citarumharum.jabarprov.go.id/langkah-sederhana-untuk-kurangi-sampah-makanan-food-waste/"></iframe>
+          </div>
+          
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>        
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- berita pengambilan sisa makanan -->
+<!-- Modal berita1 -->
+<div class="modal fade" id="pengambilan_berita1" tabindex="-1" aria-labelledby="pengambilan_berita1" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">5 Komunitas Ini Kumpulkan Sampah Makanan Sisa, Ada yang Dari Indonesia</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <!-- update on -->
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <!-- embed -->
+          
+          <div class="ratio">
+            <iframe class="embed-responsive-item" src="https://food.detik.com/info-kuliner/d-4831126/5-komunitas-ini-kumpulkan-sampah-makanan-sisa-ada-yang-dari-indonesia"></iframe>
+          </div>
+          
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>        
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal berita2 -->
+  <div class="modal fade" id="pengambilan_berita2" tabindex="-1" aria-labelledby="pengambilan_berita2" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Limbah makanan di Indonesia capai 48 juta ton per tahun</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <!-- update on -->
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <!-- embed -->
+          
+          <div class="ratio">
+            <iframe class="embed-responsive-item" src="https://www.aa.com.tr/id/nasional/limbah-makanan-di-indonesia-capai-48-juta-ton-per-tahun/2268483"></iframe>
+          </div>
+          
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>        
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal berita3 -->
+  <div class="modal fade" id="pengambilan_berita3" tabindex="-1" aria-labelledby="pengambilan_berita3" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Ke Mana Makanan Sisa Kondangan Pergi?</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <!-- update on -->
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <!-- embed -->
+          
+          <div class="ratio">
+            <iframe class="embed-responsive-item" src="https://kumparan.com/kumparannews/ke-mana-makanan-sisa-kondangan-pergi-1sf0rkFMfhG"></iframe>
+          </div>
+          
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>        
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- berita penyaluran sisa makanan -->
+<!-- Modal berita1 -->
+<div class="modal fade" id="penyaluran_berita1" tabindex="-1" aria-labelledby="penyaluran_berita1" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Demi Alasan Kesehatan, Maksimal 4 Jam Setelah Disajikan Sisa Makanan Pasien Dimusnahkan</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <!-- update on -->
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <!-- embed -->
+          
+          <div class="ratio">
+            <iframe class="embed-responsive-item" src="https://food.detik.com/info-sehat/d-3290580/demi-alasan-kesehatan-maksimal-4-jam-setelah-disajikan-sisa-makanan-pasien-dimusnahkan"></iframe>
+          </div>
+          
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>        
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal berita2 -->
+  <div class="modal fade" id="penyaluran_berita2" tabindex="-1" aria-labelledby="penyaluran_berita2" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Visual Comstock untuk Menilai Konsumsi Makanan Individu</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <!-- update on -->
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <!-- embed -->
+          
+          <div class="ratio">
+            <iframe class="embed-responsive-item" src="https://ahligizi.id/blog/2020/10/28/visual-comstock-untuk-menilai-konsumsi-makanan-individu/"></iframe>
+          </div>
+          
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>        
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal berita3 -->
+  <div class="modal fade" id="berita3" tabindex="-1" aria-labelledby="berita3" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Pria Ungkap Kemana Sisa Makanan di Kapal Pesiar Dibuang, Video Ditonton 1 Juta Kali</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <!-- update on -->
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <!-- embed -->
+          
+          <div class="ratio">
+            <iframe class="embed-responsive-item" src="https://www.suara.com/news/2021/08/27/190702/pria-ungkap-kemana-sisa-makanan-di-kapal-pesiar-dibuang-video-ditonton-1-juta-kali?page=all"></iframe>
+          </div>
+          
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>        
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- isi -->
+        <!-- head article -->
+        <h1>Kegiatan Kami</h1>
+        <!-- dokumentasi act -->
+        <div class="container px-4" id="act-edukasi">
+        <!-- pembatas -->
+        <hr>
+        <!-- head kegiatan -->
+        <h4>Edukasi</h4>
+        <!-- dok act -->
+            <div class="row row-cols-3">
+                <div class="col-1 d-flex justify-content-start">
+                    <!-- scroll left -->
+                    <button id="slideLeft" type="button" class="bg-transparent border-0">
+                        <span class="iconify" data-icon="dashicons:arrow-left-alt2" style="color: #b08968;" data-width="50"></span>
+                    </button>
+                </div>
+                <div class="col-10 p-1">
+                    <!-- scrolling wrapper -->
+                    <div class="scrolling-wrapper row flex-row flex-nowrap isi_act" id="isi_act">
+                        <!-- act 1 -->
+                        <div class="col-5">
+                            <div class="card card-block">
+                                <!-- core act -->
+                                <div class="card">
+                                <img src="https://static.wixstatic.com/media/9ef4c8_30b2306d40394084a5185d75979653dc~mv2.png/v1/fill/w_800,h_505,al_c,q_95/9ef4c8_30b2306d40394084a5185d75979653dc~mv2.webp" class="card-img-top" alt="kegiatan">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Sudahkah Anda Mengedukasi Anak Mengenai Food Waste di Waktu yang Tepat?</h6>
+                                        <p class="card-text"> Apa itu Food Waste?...</p>
+                                        <div class="d-flex justify-content-center">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn more" data-bs-toggle="modal" data-bs-target="#edukasi_berita1">
+                                            Selengkapnya
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- act 2 -->
+                        <div class="col-5">
+                            <div class="card card-block">
+                                <!-- core act -->
+                                <div class="card">
+                                <img src="https://lpmopini.online/wp-content/uploads/2020/05/IMG_20200513_153900-1536x1020.jpg" class="card-img-top" alt="kegiatan">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Food Waste dan Langkah Kecil Untuk Menguranginya</h6>
+                                        <p class="card-text"> Waktu kecil kita tentu...</p>
+                                        <div class="d-flex justify-content-center">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn more" data-bs-toggle="modal" data-bs-target="#edukasi_berita2">
+                                            Selengkapnya
+                                            </button>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- act 3 -->
+                        <div class="col-5">
+                            <div class="card card-block">
+                                <!-- core act -->
+                                <div class="card">
+                                <img src="https://citarumharum.jabarprov.go.id/eusina/uploads/2021/10/1-1.jpg" class="card-img-top" alt="kegiatan">
+                                    <div class="card-body">
+                                        <h6 class="card-title">LANGKAH SEDERHANA UNTUK KURANGI SAMPAH MAKANAN (FOOD WASTE)</h6>
+                                        <p class="card-text">Tanpa disadari, sampah...</p>
+                                        <div class="d-flex justify-content-center">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn more" data-bs-toggle="modal" data-bs-target="#edukasi_berita3">
+                                            Selengkapnya
+                                            </button>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1 d-flex justify-content-end">
+                    <!-- scroll left -->
+                    <button id="slideRight" type="button" class="bg-transparent border-0">
+                        <span class="iconify" data-icon="dashicons:arrow-right-alt2" style="color: #b08968;" data-width="50"></span>
+                    </button>
+                </div>
+            </div>
+
+            
+
+        <!-- pembatas -->
+        <hr>
+        <!-- head kegiatan -->
+        <h4>Pengambilan Sisa Makanan</h4>
+        <!-- dok act -->
+        <div class="row row-cols-3">
+                <div class="col-1 d-flex justify-content-start">
+                    <!-- scroll left -->
+                    <button id="slideLeft" type="button" class="bg-transparent border-0">
+                        <span class="iconify" data-icon="dashicons:arrow-left-alt2" style="color: #b08968;" data-width="50"></span>
+                    </button>
+                </div>
+                <div class="col-10 p-1">
+                    <!-- scrolling wrapper -->
+                    <div class="scrolling-wrapper row flex-row flex-nowrap isi_act" id="isi_act">
+                        <!-- act 1 -->
+                        <div class="col-5">
+                            <div class="card card-block">
+                                <!-- core act -->
+                                <div class="card">
+                                <img src="https://akcdn.detik.net.id/community/media/visual/2019/12/20/65efe225-4bc1-4a1b-ae74-fe176cef9eb9.jpeg?w=700&q=90" class="card-img-top" alt="kegiatan">
+                                    <div class="card-body">
+                                        <h6 class="card-title">5 Komunitas Ini Kumpulkan Sampah Makanan Sisa, Ada yang Dari Indonesia</h6>
+                                        <p class="card-text"> Makan sampah memang...</p>
+                                        <div class="d-flex justify-content-center">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn more" data-bs-toggle="modal" data-bs-target="#pengambilan_berita1">
+                                            Selengkapnya
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- act 2 -->
+                        <div class="col-5">
+                            <div class="card card-block">
+                                <!-- core act -->
+                                <div class="card">
+                                <img src="https://cdnuploads.aa.com.tr/uploads/Contents/2021/06/09/thumbs_b_c_a048712251430ce99641574dffca178b.jpg?v=162108" class="card-img-top" alt="kegiatan">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Limbah makanan di Indonesia capai 48 juta ton per tahun</h6>
+                                        <p class="card-text">Badan Perencana Pembangunan...</p>
+                                        <div class="d-flex justify-content-center">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn more" data-bs-toggle="modal" data-bs-target="#pengambilan_berita2">
+                                            Selengkapnya
+                                            </button>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- act 3 -->
+                        <div class="col-5">
+                            <div class="card card-block">
+                                <!-- core act -->
+                                <div class="card">
+                                <img src="https://blue.kumparan.com/image/upload/fl_progressive,fl_lossy,c_fill,q_auto:best,w_640/v1579165102/z4fknvoc7hga9j4bh14n.jpg" class="card-img-top" alt="kegiatan">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Ke Mana Makanan Sisa Kondangan Pergi?</h6>
+                                        <p class="card-text">Sepasang pengantin baru...</p>
+                                        <div class="d-flex justify-content-center">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn more" data-bs-toggle="modal" data-bs-target="#pengambilan_berita3">
+                                            Selengkapnya
+                                            </button>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1 d-flex justify-content-end">
+                    <!-- scroll left -->
+                    <button id="slideRight" type="button" class="bg-transparent border-0">
+                        <span class="iconify" data-icon="dashicons:arrow-right-alt2" style="color: #b08968;" data-width="50"></span>
+                    </button>
+                </div>
+            </div>
+
+        <!-- pembatas -->
+        <hr>
+        <!-- head kegiatan -->
+        <h4>Penyaluran Sisa Makanan</h4>
+        <!-- dok act -->
+        <div class="row row-cols-3">
+                <div class="col-1 d-flex justify-content-start">
+                    <!-- scroll left -->
+                    <button id="slideLeft" type="button" class="bg-transparent border-0">
+                        <span class="iconify" data-icon="dashicons:arrow-left-alt2" style="color: #b08968;" data-width="50"></span>
+                    </button>
+                </div>
+                <div class="col-10 p-1">
+                    <!-- scrolling wrapper -->
+                    <div class="scrolling-wrapper row flex-row flex-nowrap isi_act" id="isi_act">
+                        <!-- act 1 -->
+                        <div class="col-5">
+                            <div class="card card-block">
+                                <!-- core act -->
+                                <div class="card">
+                                <img src="https://akcdn.detik.net.id/community/media/visual/2016/09/04/1152d541-0993-4e99-8b81-f0176cb1bf41_169.jpg?w=700&q=90" class="card-img-top" alt="kegiatan">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Demi Alasan Kesehatan, Maksimal 4 Jam Setelah Disajikan Sisa Makanan Pasien Dimusnahkan</h6>
+                                        <p class="card-text">Sisa makanan pasien...</p>
+                                        <div class="d-flex justify-content-center">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn more" data-bs-toggle="modal" data-bs-target="#penyaluran_berita1">
+                                            Selengkapnya
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- act 2 -->
+                        <div class="col-5">
+                            <div class="card card-block">
+                                <!-- core act -->
+                                <div class="card">
+                                <img src="https://ahligizi.id/blog/wp-content/uploads/2020/10/plate-2549069_1920-800x445.jpg" class="card-img-top" alt="kegiatan">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Visual Comstock untuk Menilai Konsumsi Makanan Individu</h6>
+                                        <p class="card-text">Visual comstock...</p>
+                                        <div class="d-flex justify-content-center">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn more" data-bs-toggle="modal" data-bs-target="#penyaluran_berita2">
+                                            Selengkapnya
+                                            </button>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- act 3 -->
+                        <div class="col-5">
+                            <div class="card card-block">
+                                <!-- core act -->
+                                <div class="card">
+                                <img src="https://media.suara.com/pictures/653x366/2021/08/27/16563-pria-ungkap-kemana-sisa-makanan-di-kapal-pesiar-dibuang-tiktok.webp" class="card-img-top" alt="kegiatan">
+                                    <div class="card-body">
+                                        <h6 class="card-title">Pria Ungkap Kemana Sisa Makanan di Kapal Pesiar Dibuang, Video Ditonton 1 Juta Kali</h6>
+                                        <p class="card-text">Suara.com - Pria...</p>
+                                        <div class="d-flex justify-content-center">
+                                            <!-- Button trigger modal -->
+                                            <button type="button" class="btn more" data-bs-toggle="modal" data-bs-target="#penyaluran_berita3">
+                                            Selengkapnya
+                                            </button>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-1 d-flex justify-content-end">
+                    <!-- scroll left -->
+                    <button id="slideRight" type="button" class="bg-transparent border-0">
+                        <span class="iconify" data-icon="dashicons:arrow-right-alt2" style="color: #b08968;" data-width="50"></span>
+                    </button>
+                </div>
+            </div>
+
+            </div>
+
+        </div>
+      
+    </div>
+<!-- isi -->
           </div>
         </div>
 
