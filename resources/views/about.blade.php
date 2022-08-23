@@ -1,15 +1,26 @@
     <!-- centering content -->
     <div class="container px-5 py-5">
         <!-- head article -->
-        <h1>Tentang FOOWASFUL Indonesia</h1>
-        <!-- text wrapping -->
-        <div class="text-warp">
-            <p>FOOWASFUL Indonesia adalah sebuah platform online pertama yang menyediakan kebutuhan untuk memanfaatkan, mengolah, dan edukasi mengenai foodwaste di kota Malang. Platform ini didirikan oleh Mochammad Mirza Kharisma pada tahun 2021. Platform ini didirikan dengan latar belakang permasalahan food waste yang sudah menjadi isu global termasuk Indonesia. Berdasarkan data Kementerian Lingkungan Hidup dan Kehutanan (KLHK) Indonesia, pada tahun 2018 44% timbulan sampah di Indonesia merupakan sampah makanan. Indonesia juga diklaim sebagai negara penghasil makanan sisa terbesar kedua di dunia, diperkirakan mencapai 300 kg per kapita per tahun. <br>
-            <br> FOOWASFUL mengambil peran untuk aktif memberikan edukasi dan membentuk pola pikir masyarakat masyarakat tentang pentingnya mengolah makanan agar memimalisir penambahan food waste. Selain itu, kami juga menjadi platform untuk menyediakan kebutuhan pengolahan food waste, salah satunya adalah jasa penampungan food waste.
-            </p>
+        <div class="row">
+          <div class="col">
+            <h1>Tentang FOOWASFUL Indonesia</h1>
+          </div>
         </div>
-        <!-- head fitur -->
-        <h4>3 Fitur Utama FOOWASFUL</h4>
+        <div class="row">
+          <div class="col">
+            <div class="text-warp">
+                <p>FOOWASFUL Indonesia adalah sebuah platform online pertama yang menyediakan kebutuhan untuk memanfaatkan, mengolah, dan edukasi mengenai foodwaste di kota Malang. Platform ini didirikan oleh Mochammad Mirza Kharisma pada tahun 2021. Platform ini didirikan dengan latar belakang permasalahan food waste yang sudah menjadi isu global termasuk Indonesia. Berdasarkan data Kementerian Lingkungan Hidup dan Kehutanan (KLHK) Indonesia, pada tahun 2018 44% timbulan sampah di Indonesia merupakan sampah makanan. Indonesia juga diklaim sebagai negara penghasil makanan sisa terbesar kedua di dunia, diperkirakan mencapai 300 kg per kapita per tahun. <br>
+                <br> FOOWASFUL mengambil peran untuk aktif memberikan edukasi dan membentuk pola pikir masyarakat masyarakat tentang pentingnya mengolah makanan agar memimalisir penambahan food waste. Selain itu, kami juga menjadi platform untuk menyediakan kebutuhan pengolahan food waste, salah satunya adalah jasa penampungan food waste.
+                </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <!-- head fitur -->
+            <h4>3 Fitur Utama FOOWASFUL</h4>
+          </div>
+        </div>
 
     <!-- row fitur-->
     <div class="row row-cols-md-3 row-cols-1">

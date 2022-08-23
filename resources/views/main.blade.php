@@ -105,49 +105,52 @@
       </style>
   </head>
   <body>
-<!-- navbar -->
-    <nav class="navbar">
-      <div class="container border-bottom">
-        <a class="navbar-brand text-light" href="/">
-          FOOWASFUL
-        </a>
-        </ul>
-          <ul class="nav nav-tabs border-0" id="myTab" role="tablist">
-          <li class="nav-item" role="presentation">
-            <button class="nav-link active text-white bg-transparent" id="nav-homepage-tab" data-bs-toggle="tab" data-bs-target="#nav-homepage" type="button" role="tab" aria-controls="nav-homepage" aria-selected="true">Beranda</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link text-white bg-transparent" id="nav-about-tab" data-bs-toggle="tab" data-bs-target="#nav-about" type="button" role="tab" aria-controls="nav-about" aria-selected="false">Tentang Kami</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link text-white bg-transparent" id="nav-masuk-tab" data-bs-toggle="tab" data-bs-target="#nav-masuk" type="button" role="tab" aria-controls="nav-masuk" aria-selected="false">Masuk</button>
-          </li>
-          <li class="nav-item" role="presentation">
-            <button class="nav-link text-white bg-transparent" id="nav-daftar-tab" data-bs-toggle="tab" data-bs-target="#nav-daftar" type="button" role="tab" aria-controls="nav-daftar" aria-selected="false">Daftar</button>
-          </li>
-        </ul>
-      </div>
-    </nav>
-<!-- carousel -->
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <!-- carousel item -->
-    <div class="carousel-item active" data-bs-interval="3000">
-      <img src="{{ asset('img/Carousel1.png') }}" class="d-block w-100" alt="...">
-      <!-- carousel caption -->
-      <div class="carousel-caption d-none d-md-block top-50 start-50 translate-middle">
-        <h3>Kurangi Sampah Sisa Makanan untuk Lingkungan yang Lebih Baik</h3>
+    <!-- header -->
+    <div class="header">
+      <nav class="navbar">
+        <div class="container border-bottom">
+          <a class="navbar-brand text-light" href="/">
+            FOOWASFUL
+          </a>
+          </ul>
+            <ul class="nav nav-tabs border-0" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active text-white bg-transparent" id="nav-homepage-tab" data-bs-toggle="tab" data-bs-target="#nav-homepage" type="button" role="tab" aria-controls="nav-homepage" aria-selected="true">Beranda</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link text-white bg-transparent" id="nav-about-tab" data-bs-toggle="tab" data-bs-target="#nav-about" type="button" role="tab" aria-controls="nav-about" aria-selected="false">Tentang Kami</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link text-white bg-transparent" id="nav-masuk-tab" data-bs-toggle="tab" data-bs-target="#nav-masuk" type="button" role="tab" aria-controls="nav-masuk" aria-selected="false">Masuk</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link text-white bg-transparent" id="nav-daftar-tab" data-bs-toggle="tab" data-bs-target="#nav-daftar" type="button" role="tab" aria-controls="nav-daftar" aria-selected="false">Daftar</button>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- carousel -->
+      <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- carousel item -->
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="{{ asset('img/Carousel1.png') }}" class="d-block w-100" alt="...">
+            <!-- carousel caption -->
+            <div class="carousel-caption d-none d-md-block top-50 start-50 translate-middle">
+              <h3>Kurangi Sampah Sisa Makanan untuk Lingkungan yang Lebih Baik</h3>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="{{ asset('img/Carousel2.png') }}" class="d-block w-100" alt="...">
+            <!-- carousel caption -->
+            <div class="carousel-caption d-none d-md-block top-50 start-50 translate-middle">
+              <h3>Melempar makanan sama saja dengan mencurinya dari atas meja</h3>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="carousel-item" data-bs-interval="3000">
-      <img src="{{ asset('img/Carousel2.png') }}" class="d-block w-100" alt="...">
-      <!-- carousel caption -->
-      <div class="carousel-caption d-none d-md-block top-50 start-50 translate-middle">
-        <h3>Melempar makanan sama saja dengan mencurinya dari atas meja</h3>
-      </div>
-    </div>
-  </div>
-</div>
+    
 
 <!-- isi -->
         <div class="tab-content" id="myTabContent">

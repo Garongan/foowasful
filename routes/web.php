@@ -14,13 +14,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('/main');
-});
-
-Route::get('/donasikan', function () {
-    return view('/form_donatur');
-});
-
-Route::get('/terima', function () {
-    return view('/form_penerima');
+    return view('/index');
 });
